@@ -10,8 +10,8 @@ def parse_args():
     parser.add_argument('board', type=str, help='name of the board')
     parser.add_argument('list', type=str, help='name of the list')
     parser.add_argument('template', type=str, help='name of the .json template file')
-    parser.add_argument('-d', dest='days', type=int, default=0, choices=range(1, 7), help='number of days from now due to the task should be done (accumulates with weeks)')
-    parser.add_argument('-w', dest='weeks', type=int, default=0, choices=range(1, 12), help='number of weeks from now due to task should be done (accumulates with days)')
+    parser.add_argument('-d', dest='days', type=int, default=0, help='number of days from now due to the task should be done (accumulates with weeks)')
+    parser.add_argument('-w', dest='weeks', type=int, default=0, help='number of weeks from now due to task should be done (accumulates with days)')
     
     return parser.parse_args()
 
