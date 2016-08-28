@@ -5,7 +5,7 @@ Script allows to add a Trello card based on your .json template to the list on y
 Installation
 ===========
 ```
-        pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Usage
