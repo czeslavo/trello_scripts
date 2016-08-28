@@ -1,0 +1,22 @@
+{
+    "name": "Cleaning bathroom",
+    "desc": "Description of the task",
+    "members_queue": [
+        "member1",
+        "member2",
+        "member3"
+    ],
+    "labels": [
+        "household"
+    ],
+    "checklists": [
+        {
+            "name": "Checklist 1",
+            "elements": [
+                "cleaning the toilet",
+                "cleaning the bathtube",
+                "cleaning the mirror"
+            ]
+        }
+    ]
+}
